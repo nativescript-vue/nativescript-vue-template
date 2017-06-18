@@ -9,11 +9,15 @@ This repo serves as the starting point for NativeScript + Vue.js projects, using
 2. Create app from this template
 ```bash
 tns create hello-ns-vue --template https://github.com/tralves/nativescript-vue-template
+
+cd hello-ns-vue
 ```
+
+> While the `nativescript-vue` project is not up-to-date on npm, you may have to run
+> `npm link nativescript-vue` in the project folder (like [described here](https://github.com/rigor789/nativescript-vue/blob/master/CONTRIBUTING.md)).
 
 3. Run in Android or iOS
 ```bash
-cd hello-ns-vue
 tns run android
 tns run ios
 ```
