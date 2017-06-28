@@ -8,7 +8,7 @@ This repo serves as the starting point for NativeScript + Vue.js projects, using
 
 2. Create app from this template
 ```bash
-tns create hello-ns-vue --template https://github.com/tralves/nativescript-vue-template
+tns create hello-ns-vue --template nativescript-vue-template
 
 cd hello-ns-vue
 ```

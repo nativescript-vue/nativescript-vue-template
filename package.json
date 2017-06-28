@@ -4,8 +4,10 @@
   "version": "0.1.0",
   "description": "NativeScript Vue Application",
   "license": "SEE LICENSE IN LICENSE",
-  "readme": "README.md",
-  "repository": "https://github.com/tralves/nativescript-vue-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tralves/nativescript-vue-template.git"
+  },
   "dependencies": {
     "nativescript-theme-core": "~1.0.4",
     "nativescript-vue": "^0.1.1",
@@ -18,5 +20,18 @@
     "babylon": "6.16.1",
     "lazy": "1.0.11",
     "nativescript-dev-android-snapshot": "^0.*.*"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tralves/nativescript-vue-template/issues"
+  },
+  "homepage": "https://github.com/tralves/nativescript-vue-template#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nativescript",
+    "vuejs",
+    "template"
+  ],
+  "author": "Tiago Alves <tralves@gmail.com> (http://tiagoalves.co)"
 }
