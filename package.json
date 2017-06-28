@@ -1,23 +1,14 @@
 {
-  "main": "app-with-list-view.js",
+  "main": "app.js",
   "name": "nativescript-vue-template",
   "version": "0.1.0",
   "description": "NativeScript Vue Application",
   "license": "SEE LICENSE IN LICENSE",
   "readme": "README.md",
   "repository": "https://github.com/tralves/nativescript-vue-template",
-  "nativescript": {
-    "id": "org.nativescript.vuesample",
-    "tns-android": {
-      "version": "3.0.0"
-    },
-    "tns-ios": {
-      "version": "3.0.1"
-    }
-  },
   "dependencies": {
-    "nativescript-theme-core": "~1.0.2",
-    "nativescript-vue": "*",
+    "nativescript-theme-core": "~1.0.4",
+    "nativescript-vue": "^0.1.1",
     "tns-core-modules": "^3.0.0",
     "vue-router": "^2.4.0"
   },
