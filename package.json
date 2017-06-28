@@ -4,10 +4,6 @@
   "version": "0.1.0",
   "description": "NativeScript Vue Application",
   "license": "SEE LICENSE IN LICENSE",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tralves/nativescript-vue-template.git"
-  },
   "dependencies": {
     "nativescript-theme-core": "~1.0.4",
     "nativescript-vue": "^0.1.1",
