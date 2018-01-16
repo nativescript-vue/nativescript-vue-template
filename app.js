@@ -14,9 +14,9 @@ Vue.component('image-viewer', {
             <image style="height: 200;" :src="img"></image>
             <scroll-view orientation="horizontal" style="height: 100">
                 <stack-layout orientation="horizontal">
-                    <image v-for="i in 10" key="i" 
-                    :src="i%2 ? '~/images/apple.jpg' : '~/images/vue.png'" 
-                    @tap="img = i%2 ? '~/images/apple.jpg' : '~/images/vue.png'"></image>
+                    <image v-for="(value, index) in 10" :key="index" 
+                    :src="index%2 ? '~/images/apple.jpg' : '~/images/vue.png'" 
+                    @tap="img = index%2 ? '~/images/apple.jpg' : '~/images/vue.png'"></image>
                 </stack-layout>
             </scroll-view>
         </stack-layout>
