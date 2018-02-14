@@ -1,59 +1,18 @@
-const Vue = require('nativescript-vue/dist/index')
-
-Vue.component('image-viewer', {
-    props: ['imgSrc'],
-
-    data() {
-        return {
-            img: ''
-        }
-    },
-
-    template: `
-        <stack-layout>
-            <image style="height: 200;" :src="img"></image>
-            <scroll-view orientation="horizontal" style="height: 100">
-                <stack-layout orientation="horizontal">
-                    <image v-for="(value, index) in 10" :key="index" 
-                    :src="index%2 ? '~/images/apple.jpg' : '~/images/vue.png'" 
-                    @tap="img = index%2 ? '~/images/apple.jpg' : '~/images/vue.png'"></image>
-                </stack-layout>
-            </scroll-view>
-        </stack-layout>
-    `,
-
-    mounted() {
-        this.img = this.imgSrc
-    }
-})
+const Vue = require('nativescript-vue');
 
 new Vue({
     template: `
-        <page>
-            <scroll-view>
-                <stack-layout>
-                    <button @tap="onTap">TAP HERE</button>
-                    <button @tap="textRed = !textRed" style="color: white; background-color: darkcyan;">TAP HERE</button>
-                    <label :style="{color: textRed ? 'red' : 'blue'}"
-                            style="text-align: center; margin-top: 20; font-size: 40"
-                            :text="showTrick ? 'Poof!' : 'Wait for it!'"></label>
-                    <button @tap="showTrick = !showTrick">Tap to see a trick!</button>
-                    
-                    <image-viewer v-if="showTrick" :imgSrc="imgSrc"></image-viewer>
-                </stack-layout>
-            </scroll-view>
-        </page>
+        <Page class="page">
+            <ActionBar class="action-bar" title="NativeScript-Vue"></ActionBar>
+            <StackLayout class="p-20">
+                <Label textWrap="true" class="h2" :text="headingText"></Label>
+                <Image height="200" class="m-y-10" src="~/images/NativeScript-Vue.png"></Image>
+                <Label textWrap="true" class="body" :text="bodyText"></Label>
+            </StackLayout>
+        </Page>
     `,
-
     data: {
-        textRed: false,
-        showTrick: false,
-        imgSrc: '~/images/apple.jpg'
-    },
-
-    methods: {
-        onTap() {
-            alert('Nice Tap!')
-        }
+        headingText: 'Welcome to NativeScript-Vue',
+        bodyText: 'This template contains a number of app samples that you can use as the starting point of your app. To experiment, try copying and pasting the code from app-with-list-view.js, app-with-router.js, app-with-tab-view.js, or app-with-vmodel.js into your app’s app.js file.'
     }
-}).$start()
+}).$start();

@@ -6,16 +6,11 @@
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "nativescript-theme-core": "~1.0.4",
-    "nativescript-vue": "^0.7.8",
-    "tns-core-modules": "^3.0.0",
+    "nativescript-vue": "^1.0.0",
+    "tns-core-modules": "^3.4.0",
     "vue-router": "^2.4.0"
   },
   "devDependencies": {
-    "babel-traverse": "6.24.1",
-    "babel-types": "6.24.1",
-    "babylon": "6.16.1",
-    "lazy": "1.0.11",
-    "nativescript-dev-android-snapshot": "^0.*.*"
   },
   "bugs": {
     "url": "https://github.com/tralves/nativescript-vue-template/issues"
