@@ -1,7 +1,7 @@
 {
   "main": "app.js",
   "name": "nativescript-vue-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NativeScript Vue Application",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
@@ -10,8 +10,7 @@
     "tns-core-modules": "^3.4.0",
     "vue-router": "^2.4.0"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "bugs": {
     "url": "https://github.com/tralves/nativescript-vue-template/issues"
   },
