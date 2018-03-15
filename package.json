@@ -1,7 +1,7 @@
 {
   "main": "main.js",
   "name": "nativescript-vue-template",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "NativeScript Vue Application",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
@@ -11,15 +11,19 @@
   },
   "devDependencies": {},
   "bugs": {
-    "url":
-      "https://github.com/nativescript-vue/nativescript-vue-template/issues"
+    "url": "https://github.com/nativescript-vue/nativescript-vue-template/issues"
   },
-  "homepage":
-    "https://github.com/nativescript-vue/nativescript-vue-template#readme",
+  "homepage": "https://github.com/nativescript-vue/nativescript-vue-template#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["nativescript", "vue", "vuejs", "template", "nativescript-vue"],
+  "keywords": [
+    "nativescript",
+    "vue",
+    "vuejs",
+    "template",
+    "nativescript-vue"
+  ],
   "contributors": [
     "Tiago Alves <tralves@gmail.com> (http://tiagoalves.co)",
     "Igor Randjelovic <shout@igor-randjelovic.com> (http://igor-randjelovic.com)"
