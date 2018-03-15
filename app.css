@@ -1,11 +1,1 @@
 @import 'nativescript-theme-core/css/core.light.css';
-
-/* Your CSS goes here */
-
-.even {
-    color: red;
-}
-
-.odd {
-    color: blue;
-}
