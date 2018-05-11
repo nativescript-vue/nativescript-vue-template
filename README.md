@@ -26,4 +26,4 @@ tns run ios
 
 ## Templates
 
-This template contains a number of app samples that you can use as the starting point of your app. To experiment, try copying and pasting the code from `app-with-list-view.js`, `app-with-router.js`, `app-with-tab-view.js`, or `app-with-vmodel.js` into your app’s `app.js` file.
+[This page](https://github.com/nativescript-vue/nativescript-vue/tree/master/samples/app) contains a number of app samples that you can use as the starting point of your app. To experiment, try copying and pasting the code from `app-with-list-view.js`, `app-with-router.js`, `app-with-tab-view.js`, or `app-with-vmodel.js` into your app’s `app.js` file.
